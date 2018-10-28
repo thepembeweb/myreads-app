@@ -1,14 +1,49 @@
 # MyReads App
 
-MyReads is a bookshelf app built with react that allows you to select and categorize books you have read, are currently reading, or want to read.
+> MyReads is a bookshelf app built with react that allows you to select and categorize books you have read, are currently reading, or want to read.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/256px-React-icon.svg.png)
+
+[![NPM Version][npm-image]][npm-url] ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+
+This app showcases CRUD operations in a React based web app.
 
 ## Installation
 
-To get started with the app:
+Clone the source locally:
 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+```sh
+$ git clone https://github.com/thepembeweb/myreads-app.git
+$ cd myreads-app
+```
+If you're on Debian or Ubuntu, you'll also need to install
+`nodejs-legacy`:
 
-## Important
-The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
+Use your package manager to install `npm`.
 
+```sh
+$ sudo apt-get install npm nodejs-legacy
+```
+
+Install project dependencies:
+
+```sh
+$ npm install
+```
+Start the app:
+
+```sh
+$ npm start
+```
+
+## Built With
+
+* [React](https://reactjs.org/) - The web framework used
+
+## License
+
+MIT  © [Pemberai Sweto](https://github.com/thepembeweb)
+
+<!-- Markdown link & img dfn's -->
+[npm-image]: https://img.shields.io/node/v/passport.svg
+[npm-url]: https://npmjs.org/package/datadog-metrics
